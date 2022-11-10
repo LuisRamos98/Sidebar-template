@@ -139,6 +139,7 @@ html {
         opacity: 1;
         visibility: visible;
         filter: blur(0);
+        margin: 0;
       }
   }
 
@@ -177,7 +178,8 @@ html {
   }
 
   .sidebar-footer {
-    margin-bottom: 0;
+    margin-top: 12rem;
+    margin-bottom: 1rem;
   }
 
   .sidebar-menu{
@@ -185,7 +187,8 @@ html {
     width: 100%;
     padding: 1rem 0;
     padding-left: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    border-top: 1px solid rgba(255, 255, 255, 0.16);    
+    margin-bottom: 14rem;
   }
 
   @media(min-width: 350px) {
